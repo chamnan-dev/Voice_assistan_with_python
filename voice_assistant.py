@@ -123,9 +123,6 @@ if __name__ == '__main__':
                 print(current_temperature)
                 city_name = city_name.replace('%20',' ')
                 speak('Temperature in '+city_name+'is '+str(current_temperature)+' degree celsius')
-            
-            
-            
 
         elif 'quiet' in query:
             speak('Bye Bye, I am singing out , Good day to you')
